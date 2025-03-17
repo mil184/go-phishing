@@ -1,0 +1,65 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "type": "email",
+            "senderName": "Petar Petrovic",
+            "senderEmail": "pera.p72@gmail.com",
+            "profilePicture": "profile-pic1.jpg",
+            "header": "Petar Petrovic дели документ са вама",
+            "body": "Postovanje, evo ga dokument koji ste trazili. Slobodno me kontaktirajte ako bude potrebno jos nesto. Pozdrav.",
+            "image": "2025budzet.jpg",
+            "url": "http://drive--google.com/d/share?id=8xg72kfd9zq",
+            "description": "Obrati pažnju na email adrese i pređi mišem kako bi otkrio URL. Ali, ne brini, nijedan link ne radi!",
+            "correctAnswerMessage": "Tačno! Sigurno si primetio/la URL koji liči na pravi. Budi oprezan/na sa linkovima i prilozima koje otvaraš, mogu te preusmeriti na lažne web-sajtove gde ćeš biti zamoljen/a da uneseš osetljive podatke. Prelaskom mišem preko dokumenta i dugmića za otvaranje, možeš primetiti da link vodi ka nebezbednoj imitaciji domena, drive--google.com.",
+            "incorrectAnswerMessage": "Netačno! URL liči na pravi, ali je zapravo imitacija. Budi oprezan/na sa linkovima i prilozima koje otvaraš, mogu te preusmeriti na lažne web-sajtove gde ćeš biti zamoljen/a da uneseš osetljive podatke. Prelaskom mišem preko dokumenta i dugmića za otvaranje, možeš primetiti da link vodi ka nebezbednoj imitaciji domena, drive--google.com. ",
+            "isPhishing": true
+        },
+
+        {
+            "id": 2,
+            "type": "text-message",
+            "image": "post-office-sms.jpeg",
+            "description": "Čudno, paket je isporučen u poštu...",
+            "correctAnswerMessage": "Tačno! Ova poruka je primer phishing napada. Napadač se predstavlja kao kurirska služba i koristi hitnost isporuke paketa kako bi naveo žrtvu da klikne na sumnjivi link. Pravi kuriri obično koriste zvanične domene i ne zahtevaju unos ličnih podataka putem neproverenih sajtova.",
+            "incorrectAnswerMessage": "Netačno! Ova poruka je primer phishing napada. Napadač se predstavlja kao kurirska služba i koristi hitnost isporuke paketa kako bi naveo žrtvu da klikne na sumnjivi link. Pravi kuriri obično koriste zvanične domene i ne zahtevaju unos ličnih podataka putem neproverenih sajtova.",
+            "isPhishing": true
+        },
+
+        {
+            "id": 3,
+            "type": "email",
+            "senderName": "Temu",
+            "senderEmail": "shop@temu-deals.com",
+            "profilePicture": "temu.png",
+            "header": "ČESTITAMO! Osvojili ste Temu besplatan poklon! Kliknite da dugme ispod kako biste ga preuzeli.",
+            "body": "empty",
+            "image": "temu-free-gift.png",
+            "url": "https://temu.com/#https://temu-support-orders.com/order?id=584932",
+            "description": "Čestitamo! Osvojili ste besplatan poklon!",
+            "correctAnswerMessage": "Tačno! Sigurno si primetio/la email adresu, prava Temu adresa koristi zvanični domen @temu.com, dok ova koristi @temu-deals.com, što je tipičan trik koji koriste phishing napadači kako bi prevarili korisnike. Takođe, obrati pažnju na deo URL-a nakon #, pritiskom na URL, bio/la bi preusmeren/a na https://temu-support-orders.com/order?id=584932, koji je lažan sajt. Phisher bi verovatno generisao stranicu koja izgleda isto kao pravi Temu sajt i tražio da uneseš svoje lične podatke.",
+            "incorrectAnswerMessage": "Netačno! Obrati pažnju na email adresu, prava Temu adresa koristi zvanični domen @temu.com, dok ova koristi @temu-deals.com, što je tipičan trik koji koriste phishing napadači kako bi prevarili korisnike. Takođe, obrati pažnju na deo URL-a nakon #, pritiskom na URL, bio/la bi preusmeren/a na https://temu-support-orders.com/order?id=584932, koji je lažan sajt. Phisher bi verovatno generisao stranicu koja izgleda isto kao pravi Temu sajt i tražio da uneseš svoje lične podatke. ",
+            "isPhishing": true
+        },
+
+        {
+            "id": 4,
+            "type": "text-message",
+            "image": "aks-message.png",
+            "description": "Obaveštenje o prispeću pošiljke",
+            "correctAnswerMessage": "Tačno! Poruka je stigla od verifikovanog AKS naloga, a ne lične email adrese. Takođe, poruka samo obaveštava o prispeću pošiljke, ne traži nikakve lične podatke.",
+            "incorrectAnswerMessage": "Netačno! Poruka je stigla od verifikovanog AKS naloga, a ne lične email adrese. Takođe, poruka samo obaveštava o prispeću pošiljke, ne traži nikakve lične podatke.",
+            "isPhishing": false
+        },
+
+        {
+            "id": 5,
+            "type": "text-message",
+            "image": "instagram-code.png",
+            "description": "Ups! Neko je greškom poslao kod na Vaš broj telefona...",
+            "correctAnswerMessage": "Tačno! Verifikacioni kod služi kao sigurnosna mera za potvrdu vašeg identiteta prilikom prijave ili promene postavki naloga. Deljenjem koda sa drugima, omogućavate im da preuzmu kontrolu nad vašim nalogom, što može dovesti do krađe ili zloupotrebe ličnih podataka ili finansijskih gubitaka.",
+            "incorrectAnswerMessage": "Netačno! Verifikacioni kod služi kao sigurnosna mera za potvrdu vašeg identiteta prilikom prijave ili promene postavki naloga. Deljenjem koda sa drugima, omogućavate im da preuzmu kontrolu nad vašim nalogom, što može dovesti do krađe ili zloupotrebe ličnih podataka ili finansijskih gubitaka.",
+            "isPhishing": true
+        }
+    ]
+}
