@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/go-phishing/static/css/main.eabb34c9.css",
+    "main.js": "/go-phishing/static/js/main.f5a9662b.js",
+    "index.html": "/go-phishing/index.html",
+    "main.eabb34c9.css.map": "/go-phishing/static/css/main.eabb34c9.css.map",
+    "main.f5a9662b.js.map": "/go-phishing/static/js/main.f5a9662b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eabb34c9.css",
+    "static/js/main.f5a9662b.js"
+  ]
+}
